@@ -1,5 +1,4 @@
 ![demo](./src/demo.gif)
-Terminal based typing practice program that has been gamified. Using Ncurses with cpp.
 
 ## BUILDING
 To build you will need to install ncurses-dev. On debian systems you may use: sudo apt install libncurses-dev
