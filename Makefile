@@ -2,7 +2,7 @@ EXE = wordwar
 OBJECTS = wordwar.o
 CFLAGS = -lncurses
 $(EXE) : $(OBJECTS) 
-	g++ -o $(EXE)  $(OBJECTS) $(CFLAGS) && rm wordwar.o
+	g++ -o $(EXE)  $(OBJECTS) $(CFLAGS)
 
 $(OBJECTS) : wordwar.cpp
 	g++ $(CFLAGS) -c wordwar.cpp -o $(OBJECTS)
